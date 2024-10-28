@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#seats {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Adjust as needed */
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.seat {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.available {
+    background-color: #4CAF50; /* Green for available */
+    color: white;
+}
+
+.reserved {
+    background-color: #f44336; /* Red for reserved */
+    color: white;
+}
